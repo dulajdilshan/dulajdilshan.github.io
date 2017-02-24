@@ -1,0 +1,65 @@
+body{
+    margin: 0 auto;
+    background-image: url("Resources/back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 720px;
+}
+.container{
+    width:500px;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(250,200, 200,0.7);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 150px;
+    
+}
+.container img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+input[type="text"],input[type="password"]{
+    font-size: 20px;
+    border: none;
+    height:30px;
+    width: 300px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 30px;;
+}
+.font-input::before{
+    content: "\f007";
+    position: absolute;
+    font-family: "Calibri";
+}
+input[type="submit"]{
+    font-size: 20px;
+    height:45px;
+    color: white;
+    width: 100px;
+    background-color: rgba(59,125,233,0.93);
+}
+.a{  margin-top: 10px;
+    color: cornflowerblue;
+    font-style: normal;
+    font-stretch: condensed;
+    font-size: 16px;
+}
+.about{
+    margin-left: 300px;
+    margin-top: -110px;
+    margin-top: -110px;
+}
+.about img {
+    width: 200px;
+    height: 150px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+.about h3{
+    margin-top: -60px;
+    color: white;
+    font-family: Calibri;
+}
