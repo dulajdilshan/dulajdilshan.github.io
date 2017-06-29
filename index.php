@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Now</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <link rel="stylesheet" type="text/css" href="font.css">
+</head>
+
+
+<body>
+
+    <div class="container">
+        <img src="Resources\userlogin.png">
+        <form>
+            <div class="form-input">
+                <input type="text" name="username" placeholder="Enter Username">
+            </div>
+            <div class="form-input">
+                <input type="password" name="password" placeholder="Enter Password">
+            </div>
+            <input type="submit" name="submit" value="LOGIN">
+            <div class="a">
+                <a href="">Forget password?</a>
+            </div>
+        </form>
+    </div>
+<div class="about">
+    <h3>powered by</h3>
+    <img src="Resources\riucsita.png">
+</div>
+
+</body>
+
+</html>
