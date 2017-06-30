@@ -1,14 +1,14 @@
 body{
     margin: 0 auto;
-    background-image: url("Resources/back.jpg");
+    background-image: url("Resources/web-back.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 720px;
+    background-size: 100% 600px;
 }
 .container{
     width:500px;
-    height: 300px;
+    height: 400px;
     text-align: center;
-    background-color: rgba(196,200,17,0.59);
+    background-color: cornflowerblue;
     border-radius: 4px;
     margin: 0 auto;
     margin-top: 150px;
@@ -25,8 +25,9 @@ input[type="text"],input[type="password"]{
     border: none;
     height:30px;
     width: 300px;
+    color: white;
     margin-bottom: 10px;
-    background-color: #fff;
+    background-color: azure;
     padding-left: 30px;;
 }
 .font-input::before{
@@ -39,18 +40,19 @@ input[type="submit"]{
     height:45px;
     color: white;
     width: 100px;
-    background-color: rgba(59,125,233,0.93);
+    background-color:chocolate;
 }
-.a{  margin-top: 10px;
+.haveAccount{  margin-top: 10px;
     color: cornflowerblue;
     font-style: normal;
     font-stretch: condensed;
     font-size: 16px;
 }
 .about{
+    background-color: blue;
     margin-left: auto;
-    margin-top: auto;
-    margin-top: auto;
+    margin-top: 100px;
+    height: 80px;
 }
 .about img {
     width: 230px;
