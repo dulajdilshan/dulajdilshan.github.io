@@ -1,4 +1,5 @@
 body{
+<<<<<<< HEAD
     padding: 0;
     margin: 0 ;
     background-image: url("Resources/web-back.jpg");
@@ -6,6 +7,12 @@ body{
     background-size: 100% 700px;
     width: 100%;
     height: 100%;
+=======
+    margin: 0 auto;
+    background-image: url("Resources/web-back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+>>>>>>> 4e5a22bba9dcd6fadd5167062353a6396c56e0e7
 }
 .container{
     width:500px;
@@ -28,7 +35,11 @@ input[type="text"],input[type="password"]{
     border: none;
     height:30px;
     width: 300px;
+<<<<<<< HEAD
     color: darkgrey;
+=======
+    color: white;
+>>>>>>> 4e5a22bba9dcd6fadd5167062353a6396c56e0e7
     margin-bottom: 10px;
     background-color: azure;
     padding-left: 30px;;
@@ -52,6 +63,7 @@ input[type="submit"]{
     font-size: 16px;
 }
 .about{
+<<<<<<< HEAD
     background-color:rgba(251,173,62,0.78);
     margin-left: auto;
     margin-top: 100px;
@@ -59,6 +71,12 @@ input[type="submit"]{
     /*
     height: 80px;
      */
+=======
+    background-color: blue;
+    margin-left: auto;
+    margin-top: 100px;
+    height: 80px;
+>>>>>>> 4e5a22bba9dcd6fadd5167062353a6396c56e0e7
 }
 .about img {
     width: 300px;
